@@ -6,7 +6,6 @@
 
 .container {
   width: 375px;
-  margin-left: 10vw;
 }
 
 .logo img {
@@ -114,6 +113,7 @@ button {
   border-bottom: 1px solid green;
   margin-left: 4em;
   margin-top: 2em;
+  cursor: pointer;
 }
 
 .howItWorks h5 {
@@ -255,4 +255,297 @@ figcaption {
   width: 1.2em;
   height: 1.2em;
   margin-right: 0.5em;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1440px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .header ul {
+    font-size: 1.7em;
+  }
+
+  .container {
+    width: 90vw;
+    padding: 0 2em;
+  }
+
+  .summary img {
+    float: right;
+    margin-top: -3em;
+  }
+
+  .summary h2 {
+    width: 50vw;
+    text-align: left;
+    margin-top: 2em;
+  }
+
+  .summary h6 {
+    width: 40vw;
+    font-size: 1em;
+    text-align: left;
+    font-size: 1.2em;
+  }
+
+  .input button {
+    width: 25vw;
+    margin-left: 1em;
+  }
+
+  .input {
+    width: 550px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .firstHero {
+    height: 40vh;
+  }
+
+  .firstHero input {
+    width: 50vw;
+  }
+
+  .secHeroImg {
+    float: right;
+  }
+
+  .secHero h2 {
+    text-align: left;
+    margin-bottom: 1em;
+  }
+
+  .secHero h4 {
+    text-align: left;
+    width: 40vw;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+  }
+
+  .howItWorks {
+    margin-left: 0;
+    width: 13.5vw;
+    justify-content: start;
+    cursor: pointer;
+  }
+
+  .howItWorks h5 {
+    font-size: 1em;
+    margin: 0;
+  }
+
+  figure {
+    margin-left: 0;
+    width: 23vw;
+  }
+
+  figcaption {
+    font-size: 1.1em;
+  }
+
+  .access {
+    height: 25vh;
+  }
+
+  .access .input {
+    float: right;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-right: -2em;
+    margin: 0;
+  }
+
+  .access h3 {
+    width: 50vw;
+    text-align: left;
+  }
+
+  .access h6 {
+    width: 40vw;
+    text-align: left;
+    font-size: 1em;
+  }
+
+  .access input {
+    width: 30vw;
+    margin-top: -10em;
+  }
+
+  .access button {
+    width: 20vw;
+    margin-left: 0;
+  }
+
+  .footer {
+    height: 50vh;
+  }
+
+  .contactUs {
+    float: right;
+    width: 25vw;
+    margin: 0;
+    margin-top: -6.5em;
+    /* margin-left: -15vw; */
+  }
+
+  .about {
+    float: right;
+    width: 25vw;
+    margin-top: -6.5em;
+  }
+
+  .contact {
+    width: 25vw;
+  }
+
+  .images {
+    width: 60vw;
+    height: 20vh;
+    margin-left: 35vw;
+    margin-top: 10vh;
+  }
+}
+
+@media only screen and (max-width: 1272px) {
+  .summary h2 {
+    width: 40vw;
+    text-align: left;
+    margin-top: 1.2em;
+    font-size: 1.2em;
+  }
+
+  .summary h6 {
+    width: 35vw;
+    font-size: 1em;
+    text-align: left;
+    font-size: 1em;
+  }
+
+  .summary img {
+    width: 25vw;
+    height: 30vh;
+    margin-right: 5vw;
+  }
+
+  .input button {
+    width: 15vw;
+    margin-left: 1em;
+  }
+
+  .input input {
+    width: 30vw;
+  }
+
+  .input {
+    width: 400px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .howItWorks {
+    width: 13vw;
+    font-size: 0.8em;
+  }
+
+  figure {
+    width: 18vw;
+  }
+
+  figcaption {
+    font-size: 0.8em;
+    word-wrap: break-word;
+    text-align: left;
+    margin-left: 1em;
+    padding-bottom: 0;
+    width: 17vw;
+  }
+
+  .secHero h2 {
+    text-align: left;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+  }
+
+  .secHero h4 {
+    text-align: left;
+    width: 35vw;
+    margin-bottom: 1em;
+    font-size: 1em;
+  }
+
+  .secHeroImg {
+    margin-right: 5vw;
+    width: 25vw;
+    height: 30vh;
+  }
+
+  .access h3 {
+    width: 30vw;
+    text-align: left;
+  }
+
+  .access h6 {
+    width: 30vw;
+    text-align: left;
+    font-size: 0.8em;
+    margin-bottom: 2em;
+  }
+
+  .access input {
+    width: 20vw;
+    margin-top: -10em;
+    margin-left: 10em;
+  }
+
+  .access button {
+    width: 15vw;
+    margin-left: 10em;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  .input input {
+    width: 18vw;
+  }
+
+  .input button {
+    width: 10vw;
+  }
+
+  .access h6 {
+    width: 30vw;
+    text-align: left;
+    font-size: 0.8em;
+    margin-bottom: 2em;
+  }
+
+  .access input {
+    width: 20vw;
+    margin-top: -10em;
+    margin-left: 15em;
+  }
+
+  .access button {
+    width: 15vw;
+    margin-left: 15em;
+  }
+
+  .contact {
+    font-size: 0.8em;
+  }
+
+  .contactUs {
+    font-size: 0.9em;
+  }
+
+  .about {
+    font-size: 0.9em;
+  }
 }
